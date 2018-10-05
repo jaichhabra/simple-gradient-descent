@@ -11,8 +11,8 @@ int gradientDescent(std::vector<float>,std::vector<float>,float, float,float);
 
 int main()
 {
-    std::vector<int> X{1100,1400,1425,1550,1600,1700,1700,1875,2350,2450};
-    std::vector<int> Y{199,245,319,240,312,279,310,308,405,324};
+    std::vector<int> X{110,140,145,150,160};
+    std::vector<int> Y{1991,2245,3319,2140,3312};
 
     auto Xminmax = minmaxstandard(X);
     auto Yminmax = minmaxstandard(Y);
